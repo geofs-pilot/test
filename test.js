@@ -33,7 +33,7 @@ if (geofs.aircraft.instance.id == 7 && geofs.addonAircraft.isMiG21 == 0) {
 	geofs.aircraft.instance.definition.parts[14].animations[1].rotationMethod = function(a) {
       this._rotation = M33.rotationX(this._rotation, a)
    };
-   geofs.aircraft.instance.definition.parts[14].animations[0].ratio = 0.069;
+   /*geofs.aircraft.instance.definition.parts[14].animations[0].ratio = 0.069;
    geofs.aircraft.instance.definition.parts[13].animations[0].ratio = 0.069;
 	
 	geofs.aircraft.instance.definition.parts[12].animations[1] = {};
@@ -46,7 +46,7 @@ if (geofs.aircraft.instance.id == 7 && geofs.addonAircraft.isMiG21 == 0) {
 	geofs.aircraft.instance.definition.parts[12].animations[1].currentValue = null;
 	geofs.aircraft.instance.definition.parts[12].animations[1].rotationMethod = function(a) {
       this._rotation = M33.rotationX(this._rotation, a)
-   };
+   };*/
 geofs.aircraft.instance.definition.parts[6].area = 0.069
 geofs.aircraft.instance.definition.parts[7].area = 4
 geofs.aircraft.instance.definition.parts[8].area = 4
