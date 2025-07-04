@@ -1,5 +1,5 @@
-console.log("aircraft changes running");
 function realismify() {
+console.log("aircraft changes running");
 var notifiedTrue1 = new Boolean(0)
 geofs.addonAircraft = {}
 geofs.addonAircraft.isMiG21 = 0
